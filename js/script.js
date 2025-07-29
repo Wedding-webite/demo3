@@ -714,14 +714,14 @@ if($('.time-countdown').length){
 })(window.jQuery);
 
 const colors = ["#bb0000", "#ffffff", "#ff0000"]; // Màu sắc
-const end = Date.now() + 10000; // Chạy trong 15 giây
+const end = Date.now() + 7000; // Chạy trong 15 giây
 
 (function frame() {
   confetti({
     particleCount: 4, // Giảm số lượng nhưng bắn liên tục
     angle: Math.random() * 360, // Bắn theo mọi hướng
     spread: 360, // Tản ra toàn màn hình
-    startVelocity: 55 + Math.random() * 10, // Bay nhanh hơn
+    startVelocity: 5 + Math.random() * 100, // Bay nhanh hơn
     decay: 0.92,
     drift: (Math.random() - 0.5) * 8, // Bay lệch mạnh hơn
     scalar: Math.random() * 0.6 + 0.1, // Kích thước nhỏ hơn nhưng đa dạng
@@ -730,7 +730,7 @@ const end = Date.now() + 10000; // Chạy trong 15 giây
   });
 
   if (Date.now() < end) {
-    setTimeout(frame, 10); // Giữ hiệu ứng nhưng bắn từ nhiều vị trí
+    setTimeout(frame, 50); // Giữ hiệu ứng nhưng bắn từ nhiều vị trí
   }
 })();
 // Gọi lại pháo giấy mỗi 30 giây 

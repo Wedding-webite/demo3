@@ -88,7 +88,7 @@ License: copyright commercial
   --line-height-heading: 1.2em;
   --line-height-heading-small: 1.4em;
   --h1-font-size: 88px;
-  --h2-font-size: 70px;
+  --h2-font-size: 65px;
   --h3-font-size: 40px;
   --h4-font-size: 24px;
   --h5-font-size: 22px;
@@ -4540,6 +4540,7 @@ Section Title
   font-family: "Mea Culpa", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: 60px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 
 }
