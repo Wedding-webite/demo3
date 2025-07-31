@@ -7807,7 +7807,7 @@ Section Title
 ***/
 .team-section-three {
   position: relative;
-  padding: 120px 0 70px;
+  /* padding: 120px 0 70px; */
 }
 .team-section-three .team-block-outer {
   position: relative;
